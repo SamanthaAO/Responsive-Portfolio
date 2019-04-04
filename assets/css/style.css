@@ -1,0 +1,195 @@
+
+
+html, body {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/grey.png");
+    height: 100%;
+    margin: 0;    
+}
+
+/*header*/
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #777777;
+    clear: both;
+}
+
+/*box for name and nav to keep itt at 960*/
+#header_text {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*Name text on the left*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    float: left;
+    padding: 1em;
+    margin: 0;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #777777;
+    background-color: #4aaaa5;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;  
+}
+
+/*nav on the right*/
+nav {
+    float: right;
+    margin: 2rem 0 2rem 0; 
+}
+
+a {text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    color: #97dad6;
+}
+
+nav li {display: inline;
+    padding: 0em 1em 0em 1em;
+}
+
+#portfolio {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;  
+}
+
+.active {
+    color: #C14A4A;
+}
+
+
+/* center container */
+
+#content_container {
+    color: #777777;
+    width: 928px;
+    margin: 3rem auto 3rem auto;
+    clear: both;
+    padding: 16px 16px 16px 16px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    overflow: auto;
+    border: 1px solid #777777;
+    box-shadow: 3px 3px 3px 1px #dddddd;
+}
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #4aaaa5;
+    text-align: left;
+    -webkit-text-stroke: 1px #777777;
+    padding: 0 1em 1em 0em;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+}
+
+
+/* about me page */
+
+#profile_picture { 
+    width: 25%;
+    float: left;
+    margin: 2em;
+    border: 1px solid #777777;
+    box-shadow: 3px 3px 3px #dddddd;
+    
+}
+
+p {
+    line-height: 1.5em;
+}
+
+/* contact page */
+
+input {
+    width: 100%;
+    height: 3em;
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    margin: .5em 0em 1em 0em;
+}
+
+
+#message {
+    width:100%;
+    height:100px;
+    margin: .5em 0em 0em 0em;
+    border-color: #dddddd;
+}
+
+#submit {
+    width: 10%;
+    float: left;
+    height: 3em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    
+}
+
+
+/* porrtfolio Page */
+
+.portfolio_tile {
+    float: left;
+    margin: 1em;
+    position: relative;
+}
+
+
+.portfolio_text {
+    text-align: center;
+    position: absolute;
+    left:0;
+    bottom: 15px;
+    width: 100%;
+    padding: 1em 0em 1em 0em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+
+}
+
+.portfolio_text:hover {
+    background-color: #97dad6;
+
+}
+    
+/* footer */
+
+#copyright {
+    color: #dddddd;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+/* sticky footer*/
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -65px;
+  }
+  footer {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    padding:0;
+    border-top: 7px solid #4aaaa5;
+    background-color: #666666;
+  }
+
+  .push {
+    height: 65px;
+  }
+
