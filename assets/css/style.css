@@ -21,6 +21,7 @@ header {
 /*box for name and nav to keep itt at 960*/
 #header_text {
     width: 960px;
+    height: 100px;
     margin: 0 auto;
 }
 
@@ -95,9 +96,9 @@ h2 {
 /* about me page */
 
 #profile_picture { 
-    width: 25%;
+    width: 300px;
     float: left;
-    margin: 2em;
+    margin: 1em;
     border: 1px solid #777777;
     box-shadow: 3px 3px 3px #dddddd;
     
@@ -193,3 +194,75 @@ input {
     height: 65px;
   }
 
+  @media screen and (max-width: 980px){
+    body{
+    background-color: green;
+}
+    #content_container{
+        width: 708px;
+    }
+
+    #header_text{
+        width: 708px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    body{
+        background-color: blue;
+    }
+    #content_container{
+        width: 550px;
+    }
+
+    #header_text{
+        width: 550px;
+        margin: 0 10px;
+    }
+
+    h1 {
+        padding: 1em .05em;
+    
+    }
+
+    ul{
+        padding-inline-start: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 640px){
+    body{
+        background-color: yellow;
+    }
+    #content_container{
+        width: 550px;
+    }
+
+    header {
+        height: 200px;
+        width: 100%;
+    }
+
+    #header_text{
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    #profile_picture {
+        width:518px;
+        float: left;
+    }
+    
+    h1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+  }
