@@ -143,6 +143,9 @@ input {
     float: left;
     margin: 1em;
     position: relative;
+    background-image: url("../images/gorilla.jpeg");
+    height:250px;
+    width:300px;
 }
 
 
@@ -195,9 +198,7 @@ input {
   }
 
   @media screen and (max-width: 980px){
-    body{
-    background-color: green;
-}
+  
     #content_container{
         width: 708px;
     }
@@ -208,16 +209,14 @@ input {
   }
 
   @media screen and (max-width: 768px){
-    body{
-        background-color: blue;
-    }
+    
     #content_container{
         width: 550px;
     }
 
     #header_text{
-        width: 550px;
-        margin: 0 10px;
+        width: 580px;
+        margin: 0 auto;
     }
 
     h1 {
@@ -225,18 +224,29 @@ input {
     
     }
 
+
     ul{
         padding-inline-start: 0;
+        float:right;
     }
 
-  }
+    .portfolio_tile {
+        width:227px;
+        height: 189px;
+    }
+
+}
+
+
+    /* .portfolio_tile {width: 45%;}
+
+  } */
 
   @media screen and (max-width: 640px){
-    body{
-        background-color: yellow;
-    }
+    
     #content_container{
-        width: 550px;
+        width: 450px;
+
     }
 
     header {
@@ -246,11 +256,11 @@ input {
 
     #header_text{
         width: 100%;
-        margin: 0 10px;
+        margin: 0;
     }
 
     #profile_picture {
-        width:518px;
+        width:418px;
         float: left;
     }
     
@@ -258,11 +268,32 @@ input {
         display: block;
         width: 100%;
         text-align: center;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
     }
 
     nav {
         display: block;
         width: 100%;
-        text-align: center;
+        margin: 2rem auto 2rem auto; 
     }
+
+    ul{
+        padding-inline-start: 0;
+        margin: 0 auto 0 auto; 
+        float: none;
+        text-align: center;
+
+    }
+    .portfolio_tile {
+    height:250px;
+    width:300px;
+    margin-left: 75px;
+    margin-right: 75px;
+    }
+
+    #submit {
+        width: 15%;
+    }
+
   }
